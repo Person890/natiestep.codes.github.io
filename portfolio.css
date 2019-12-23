@@ -1,5 +1,10 @@
-.test{
-    font-size: 100px;
-    align-content: center;
+.wrapper {
+  height: 10em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
+body {
+   background-color: rgb(188, 188, 188);
 }
