@@ -1,8 +1,10 @@
-.carousel-inner{
+.carousel{
     height: 100vh;
 }
 
-
+.carousel-inner{
+    height: 100vh;
+}
 img {
     filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale"); /* Firefox 10+, Firefox on Android */    
    -webkit-filter: grayscale(100%);
@@ -10,8 +12,18 @@ img {
    -ms-filter: grayscale(100%);
    filter: grayscale(100%);
    filter: gray; /* IE 6-9 */
-   position: absolute;
-   top: -30px;
+   position: relative;
+   background-size: 100%;
+}
+
+
+.natiestep{
+    font-family: 'Shadows Into Light Two', cursive;
+    font-size: 100;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 /* 
