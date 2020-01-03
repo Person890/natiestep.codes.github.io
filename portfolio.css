@@ -37,7 +37,8 @@
 
 .small-description{
     font-family: 'Kalam', cursive;
-    font-size: 2vw;
+    font-size: 85%;
+    line-height: 2rem;
     color: ivory;
     -webkit-animation: fadein 4s; /* Safari, Chrome and Opera > 12.1 */
     -moz-animation: fadein 4s; /* Firefox < 16 */
@@ -92,3 +93,15 @@
     text-align: justify;
     padding-top: 80px;
 }
+
+.navbar-brand{
+    margin: 0;
+    padding: 0;
+    border: none;
+    background-color: transparent;
+}
+
+#navbarSupportedContent {
+    padding-top: .3125rem;
+}
+
