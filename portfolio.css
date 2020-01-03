@@ -19,7 +19,7 @@
   }
 
 .natiestep{
-    font-family: 'Roboto Mono', monospace;
+    font-family: 'Pacifico', cursive;
     font-size: 4vw;
     color: ivory;
     position: absolute;
@@ -30,11 +30,13 @@
     line-height: 0.5em;
 }
 
-
+.nat-description{
+    justify-content: right;
+}
 
 
 .small-description{
-    font-family: 'Roboto Mono', monospace;
+    font-family: 'Kalam', cursive;
     font-size: 2vw;
     color: ivory;
     -webkit-animation: fadein 4s; /* Safari, Chrome and Opera > 12.1 */
@@ -78,11 +80,16 @@
 	position:fixed;
 	top:0px;
 	width:100%; 
-	background-color:rgba(255, 255, 255, 0.719);
+	background-color:rgba(255, 255, 255, 0.819);
 	z-index:9999;
 	display: none;
 }
 
-.navbar-collapse{
-    float: right;
+
+
+.bio{
+    width: 60%;
+    margin: 0 auto;
+    text-align: justify;
+    padding-top: 80px;
 }
