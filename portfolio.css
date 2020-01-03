@@ -1,6 +1,5 @@
 .carousel{
     height: 100vh;
-    z-index: -1;
 }
 .carousel-item .content {
     display: block;
@@ -99,9 +98,7 @@
     padding: 0;
     border: none;
     background-color: transparent;
+    display: block;
 }
 
-#navbarSupportedContent {
-    padding-top: .3125rem;
-}
 
