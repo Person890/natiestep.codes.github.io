@@ -1,8 +1,7 @@
 .carousel{
     height: 100vh;
-    filter: grayscale(100%);
+    z-index: -1;
 }
-
 .carousel-item .content {
     display: block;
     margin: 0;
@@ -12,6 +11,7 @@
     background-size: cover;
     background-position: center;
 }
+
 .carousel-inner .carousel-item {
     transition: -webkit-transform 2s ease;
     transition: transform 2s ease;
@@ -21,7 +21,7 @@
 .natiestep{
     font-family: 'Roboto Mono', monospace;
     font-size: 4vw;
-    color: lavender;
+    color: ivory;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -30,16 +30,13 @@
     line-height: 0.5em;
 }
 
-.nat-description {
-    text-align: justify;
-}
 
 
 
 .small-description{
     font-family: 'Roboto Mono', monospace;
     font-size: 2vw;
-    color: lavender;
+    color: ivory;
     -webkit-animation: fadein 4s; /* Safari, Chrome and Opera > 12.1 */
     -moz-animation: fadein 4s; /* Firefox < 16 */
      -ms-animation: fadein 4s; /* Internet Explorer */
@@ -76,3 +73,16 @@
  to   { opacity: 1; }
 }
 
+
+#menu {
+	position:fixed;
+	top:0px;
+	width:100%; 
+	background-color:rgba(255, 255, 255, 0.719);
+	z-index:9999;
+	display: none;
+}
+
+.navbar-collapse{
+    float: right;
+}
