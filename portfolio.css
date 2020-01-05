@@ -35,9 +35,9 @@
 
 
 .small-description{
-    font-family: 'Kalam', cursive;
-    font-size: 85%;
-    line-height: 2rem;
+    font-family: monospace;
+    font-size: 65%;
+    line-height: 1rem;
     color: ivory;
     -webkit-animation: fadein 4s; /* Safari, Chrome and Opera > 12.1 */
     -moz-animation: fadein 4s; /* Firefox < 16 */
