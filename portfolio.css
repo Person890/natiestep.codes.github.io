@@ -103,5 +103,5 @@
 
 
 .alignright {
-    align-items: right;
+    float: right;
 }
