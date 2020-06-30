@@ -19,8 +19,8 @@ $(document).ready(function() {
   })(jQuery);
 
   
-  function switchStyle() {
-      // if (document.getElementById('styleSwitch').checked) {
+  function switchStyle(bool) {
+       if (bool == true) {
         
       document.getElementById('gallery').classList.add("custom");
       document.getElementById('exampleModal').classList.add("custom");
