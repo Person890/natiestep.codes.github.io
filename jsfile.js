@@ -18,7 +18,7 @@ $(document).ready(function() {
       });
   })(jQuery);
 
-
+  
   function switchStyle() {
     if (document.getElementById('styleSwitch').checked) {
       document.getElementById('gallery').classList.add("custom");
