@@ -107,6 +107,10 @@
     margin-bottom: 4em;
 }
 
+#gallery{
+    width: 60%;
+    float: center;
+}
 #gallery img {
     height: 75vw;
     -o-object-fit: cover;
