@@ -17,14 +17,14 @@ $(document).ready(function() {
           });
       });
   })(jQuery);
-  
 
-  function switchStyle() {
-    if (document.getElementById('styleSwitch').checked) {
+
+  function switchStyle(boolean) {
+    if (boolean == true) {
       document.getElementById('gallery').classList.add("custom");
       document.getElementById('exampleModal').classList.add("custom");
     } else {
-      document.getElementById('gallery').classList.remove("custom");
-      document.getElementById('exampleModal').classList.remove("custom");
+      document.getElementById('gallery').classList.add("custom");
+      document.getElementById('exampleModal').classList.add("custom");
     }
   }
