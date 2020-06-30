@@ -349,5 +349,10 @@
       max-height: 30rem;
   }
 .modal-header{
-    min-height: 5rem;
+    min-height: 3rem;
 }
+
+.modal-header .close {
+    padding: 1rem 1rem;
+    margin: -1.25rem -1rem -1rem auto;
+    }
