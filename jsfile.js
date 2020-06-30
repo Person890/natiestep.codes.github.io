@@ -16,18 +16,20 @@ $(document).ready(function() {
               }
           });
       });
+      document.getElementById('gallery').classList.add("custom");
+      document.getElementById('exampleModal').classList.add("custom");
   })(jQuery);
 
   
-  function switchStyle(bool) {
-       if (bool == true) {
+  // function switchStyle() {
+  //      if (bool == true) {
         
-      document.getElementById('gallery').classList.add("custom");
-      document.getElementById('exampleModal').classList.add("custom");
-      }
+  //     document.getElementById('gallery').classList.add("custom");
+  //     document.getElementById('exampleModal').classList.add("custom");
+  //     }
     
-    // } else {
-    //   document.getElementById('gallery').classList.remove("custom");
-    //   document.getElementById('exampleModal').classList.remove("custom");
-    // }
-    //}
+  //   // } else {
+  //   //   document.getElementById('gallery').classList.remove("custom");
+  //   //   document.getElementById('exampleModal').classList.remove("custom");
+  //   // }
+  //   //}
