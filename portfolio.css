@@ -109,7 +109,8 @@
 
 #gallery{
     width: 60%;
-    float: center;
+    margin: 0 auto;
+
 }
 #gallery img {
     height: 75vw;
