@@ -20,7 +20,8 @@ $(document).ready(function() {
 
   
   function switchStyle() {
-      document.getElementById('styleSwitch') = (document.getElementById('styleSwitch').checked);
+      // if (document.getElementById('styleSwitch').checked) {
+        
       document.getElementById('gallery').classList.add("custom");
       document.getElementById('exampleModal').classList.add("custom");
       }
