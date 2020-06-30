@@ -316,13 +316,6 @@
   }
   
 
-  .switch-wrap {
-    text-align: center;
-    background-color: #b1fbc1;
-    padding: 30px;
-    border-radius: 3px;
-    margin: 30px 0 0;
-  }
   @media (min-width: 576px) {
     .switch-wrap {
       position: fixed;
