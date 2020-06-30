@@ -277,7 +277,7 @@
     }
   }
   #exampleModal.custom .carousel-indicators {
-    bottom: -60px;
+    bottom: -100px;
   }
   @media (min-width: 992px) {
     #exampleModal.custom .carousel-indicators {
