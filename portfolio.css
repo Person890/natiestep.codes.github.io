@@ -302,8 +302,6 @@
   
   /* The switch - the box around the slider */
   .switch {
-
-    /* display: none; */
     position: relative;
     display: inline-block;
     width: 60px;
