@@ -20,6 +20,7 @@ $(document).ready(function() {
 
 
   function switchStyle() {
+
       document.getElementById('gallery').classList.add("custom");
       document.getElementById('exampleModal').classList.add("custom");
     
