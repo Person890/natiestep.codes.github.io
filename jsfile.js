@@ -19,12 +19,8 @@ $(document).ready(function() {
   })(jQuery);
 
 
-  function switchStyle(boolean) {
-    if (boolean == true) {
+  function switchStyle() {
       document.getElementById('gallery').classList.add("custom");
       document.getElementById('exampleModal').classList.add("custom");
-    } else {
-      document.getElementById('gallery').classList.add("custom");
-      document.getElementById('exampleModal').classList.add("custom");
-    }
+    
   }
