@@ -187,7 +187,6 @@
     padding: 0;
     border: none;
     position: relative;
-    height: 90px;
 
   }
   #exampleModal.custom .modal-body::before, #exampleModal.custom .modal-body::after {
@@ -355,3 +354,7 @@
   .modal-content {
       margin-top: 4em;
   }
+
+  .modal-body   {
+   height: 90px;
+}
