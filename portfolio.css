@@ -342,8 +342,9 @@
     }
   }
 
-  .modal-body {
-      margin-top: 10rem;;
+  .modal-content {
+      
+      margin-top: 10rem;
       min-height: 20vh;
       max-height: 40vh;;
   }
