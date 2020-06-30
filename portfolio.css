@@ -343,8 +343,8 @@
   }
 
   .modal-content {
-      
+
       margin-top: 10rem;
-      min-height: 20vh;
-      max-height: 40vh;;
+      min-height: 20rem;
+      max-height: 40rem;
   }
