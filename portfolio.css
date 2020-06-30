@@ -187,8 +187,8 @@
     padding: 0;
     border: none;
     position: relative;
-    height: 90%;
-    
+    height: 90px;
+
   }
   #exampleModal.custom .modal-body::before, #exampleModal.custom .modal-body::after {
     content: '';
