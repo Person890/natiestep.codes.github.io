@@ -348,3 +348,6 @@
       min-height: 15rem;
       max-height: 30rem;
   }
+.modal-header{
+    min-height: 5rem;
+}
