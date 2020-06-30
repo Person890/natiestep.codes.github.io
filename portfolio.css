@@ -343,6 +343,6 @@
   }
 
   .modal-body {
-      min-height: 30em;
-      max-height: 60em;;
+      min-height: 20vh;
+      max-height: 40vh;;
   }
