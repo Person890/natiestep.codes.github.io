@@ -352,11 +352,8 @@
     min-height: 3rem;
 }
 
-.modal-header .close{
-    padding: 1rem 1rem;
-    margin: -1rem -1rem -1rem auto;
-    }
+.modal-header .close {
+  padding: 1rem 1rem;
+  margin: -1.25rem -1rem -1rem auto;
 
-.up {
-    margin-top: -15rem;
-} 
+}
