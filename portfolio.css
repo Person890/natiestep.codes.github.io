@@ -358,5 +358,6 @@
     }
 
 .up {
+    position: absolute;
     margin-top: -15rem;
 } 
