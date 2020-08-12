@@ -227,6 +227,7 @@
   }
   #exampleModal.custom .modal-footer {
     border: none;
+    position: absolute;
 
   }
   @media (min-width: 992px) {
