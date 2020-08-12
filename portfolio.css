@@ -358,18 +358,3 @@
   margin: -1.25rem -1rem -1rem auto;
 
 }
-
-//////////////////////
-
-.carousel-item {
-  height: 350px;
-}
-
-.carousel-indicators li {
-  width: 10px;
-  height: 10px;
-  border-radius: 100%;
-}
-.carousel-indicators {
-  bottom: -50px;
-}
