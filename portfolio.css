@@ -280,7 +280,7 @@
     }
   }
   #exampleModal.custom .carousel-indicators {
-    bottom: 0px;
+    bottom: -100px;
   }
   @media (min-width: 992px) {
     #exampleModal.custom .carousel-indicators {
@@ -305,6 +305,12 @@
     background: white;
   }
   
+  .carousel-indicators {
+    bottom: 0px;
+    padding: 0px; 
+    margin: 0px;
+  }
+
   /* The switch - the box around the slider */
   .switch {
     position: relative;
