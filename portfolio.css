@@ -12,10 +12,10 @@
 }
 
 .carousel-inner .carousel-item {
-    transition: -webkit-transform 6s ease;
-    transition: transform 6s ease;
-    transition: transform 6s ease, 
-    -webkit-transform 6s ease;
+    transition: -webkit-transform 5s ease;
+    transition: transform 5s ease;
+    transition: transform 5s ease, 
+    -webkit-transform 5s ease;
   }
 
 .natiestep{
