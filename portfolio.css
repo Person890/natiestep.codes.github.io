@@ -299,18 +299,12 @@
     }
   }
   #exampleModal.custom .carousel-indicators li:hover {
-    background: white;
+    background: rgb(219, 12, 12);
   }
   #exampleModal.custom .carousel-indicators li.active {
     background: white;
   }
   
-  .carousel-indicators {
-    bottom: 0px;
-    padding: 0px; 
-    margin: 0px;
-  }
-
   /* The switch - the box around the slider */
   .switch {
     position: relative;
