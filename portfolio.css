@@ -249,6 +249,7 @@
     color: black;
   }
   #exampleModal.custom .carousel-control-prev, #exampleModal.custom .carousel-control-next {
+    position: absolute;
     font-size: 2em;
     top: auto;
     opacity: 1;
