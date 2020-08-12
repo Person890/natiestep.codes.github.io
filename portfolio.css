@@ -299,7 +299,7 @@
     }
   }
   #exampleModal.custom .carousel-indicators li:hover {
-    background: rgb(219, 12, 12);
+    background: white;
   }
   #exampleModal.custom .carousel-indicators li.active {
     background: white;
