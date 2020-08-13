@@ -12,10 +12,10 @@
 }
 
 .carousel-inner .carousel-item {
-    transition: -webkit-transform 5s ease;
-    transition: transform 5s ease;
-    transition: transform 5s ease, 
-    -webkit-transform 5s ease;
+    transition: -webkit-transform 4s ease;
+    transition: transform 4s ease;
+    transition: transform 4s ease, 
+    -webkit-transform 4s ease;
   }
 
 .natiestep{
@@ -361,4 +361,30 @@
   padding: 1rem 1rem;
   margin: -1.25rem -1rem -1rem auto;
 
+}
+
+.w-100  {
+  box-shadow: 7px 14px 14px 6px rgba(110, 60, 87, 0.197);
+}
+
+
+i {
+  color: rgba(44, 44, 44, 0.904);
+  font-size: 4em;
+  text-decoration: none;
+}
+
+i:hover {
+  color:  rgb(105, 36, 73);
+  text-decoration: none;
+}
+
+.icons {
+  width: 100%;
+  padding-bottom: 5em;
+  border: 3px black;
+}
+
+a:link {
+  text-decoration: none;
 }
