@@ -1,0 +1,18 @@
+
+body{
+    margin:0;
+    
+}
+
+
+.grid{
+    display:flex;
+    .grid-col{
+        flex: 1;
+        padding: 0 .1em;
+    }   
+}
+
+.grid-col--2, .grid-col--3 {
+    display: none;
+}

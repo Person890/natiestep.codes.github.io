@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+}
+
+.grid {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.grid .grid-col {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  padding: 0 .1em;
+}
+
+.grid-col--2, .grid-col--3 {
+  display: none;
+}
+/*# sourceMappingURL=main.css.map */

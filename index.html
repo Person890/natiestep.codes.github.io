@@ -4,6 +4,7 @@
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
     <head>
+
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>🎨 NatieStep </title>
@@ -14,29 +15,32 @@
         <link rel="manifest" href="/site.webmanifest"> -->
       
       
-      
-        <script src="https://code.jquery.com/jquery-latest.js"></script>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="portfolio.css">
-        <!-- javascript -->
-        <script type="text/javascript" src="jsfile.js"></script>
-        <!-- bootstrap -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
         <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+        <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
 
         <!-- icon library -->
         <script src="https://kit.fontawesome.com/a0e23e675f.js" crossorigin="anonymous"></script>
+
         <!-- icon for the browser -->
         <link rel="shortcut icon" type="img/png" href="palette_PNG68291.png">
+        <script src="https://code.jquery.com/jquery-latest.js"></script>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- stylesheet -->
+        <link rel="stylesheet" href="css/portfolio.css">
+
+        <!-- javascript -->
+        <script type="text/javascript" src="jsfile.js"></script>
+
 
         <!-- font -->
         <link href="https://fonts.googleapis.com/css?family=Courgette|Kalam|Pacifico&display=swap" rel="stylesheet">
 
-
-       
+      
         </head>
     <div>
 
@@ -85,14 +89,14 @@
             </ol>
             <div class="carousel-inner" >
               <div class="carousel-item active">
-                <div class="content" style="background-image: url('ballerina_space_version3.jpg');" 
+                <div class="content" style="background-image: url('img/img18.jpg');" 
                 alt="turtle"></div>
               </div>
               <div class="carousel-item">
-                <div class="content" style="background-image: url('girl_plane_version-3.jpg');"></div>
+                <div class="content" style="background-image: url('img/img21.jpg');"></div>
               </div>
               <div class="carousel-item">
-                <div class="content" style="background-image: url('GG_swing_version_1.jpg');" alt="swing"></div>
+                <div class="content" style="background-image: url('img/img26.jpg');" alt="swing"></div>
               </div>
             </div>
             <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -147,7 +151,7 @@ To open lightbox, this is added to the gallery element: {data-toggle="modal" dat
 To open carousel on correct image, this is added to each image element: {data-target="#carouselExample" data-slide-to="0"}.
 Replace '0' with corresponding slide number.
 -->
-
+<!-- 
 <div class="row custom" id="gallery" data-toggle="modal" data-target="#exampleModal">
   <div class="col-12 col-sm-6 col-lg-6">
     <img class="w-100" src="reading_on_cloud_version1.jpg" alt="First slide" data-target="#carouselExample" data-slide-to="0">
@@ -162,11 +166,12 @@ Replace '0' with corresponding slide number.
     <img class="w-100" src="giraffe_valentine_version_2.jpg" alt="First slide" data-target="#carouselExample" data-slide-to="3">
   </div>
 </div>
-
+-->
 <!-- Modal -->
 <!-- 
 This part is straight out of Bootstrap docs. Just a carousel inside a modal.
 -->
+<!--
 <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-hidden="true">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
@@ -212,7 +217,92 @@ This part is straight out of Bootstrap docs. Just a carousel inside a modal.
       </div>
     </div>
   </div>
-</div>
+</div> -->
+
+<!-- ////////////////////////////////////////////////////////////////////////////// -->
+<!-- ////////////////////////////////////////////////////////////////////////////// -->
+                                  <!-- GALLERY -->
+
+          <div class="container2">
+              <div class="grid" >
+                
+                  <div class="grid-col grid-col--1">
+                    
+                  </div>
+
+                  <div class="grid-col grid-col--2">
+                    
+                  </div>
+
+                  <div class="grid-col grid-col--1">
+                    
+                  </div>
+
+                  <div class="grid-col grid-col--2">
+                    
+                  </div>
+
+                  <!-- =============== -->
+
+                  <div class="grid-item">
+                    <img src="img/img1.jpg" alt="" >
+                  </div>
+
+                  <div class="grid-item">
+                    <img src="img/img2.jpg" alt="">
+                  </div>
+
+                  <div class="grid-item">
+                    <img src="img/img3.jpg" alt="">
+                  </div>
+
+                  <div class="grid-item">
+                    <img src="img/img4.jpg" alt="">
+                  </div>
+
+                  <div class="grid-item">
+                    <img src="img/img5.jpg" alt="">
+                  </div>
+
+                  <div class="grid-item">
+                    <img src="img/img6.jpg" alt="">
+                  </div>
+
+                  <div class="grid-item"><img src="img/img7.jpg" alt=""></div>
+                  <div class="grid-item"><img src="img/img8.jpg" alt=""></div>
+                  <div class="grid-item"><img src="img/img9.jpg" alt=""></div>
+                  <div class="grid-item"><img src="img/img10.jpg" alt=""></div>
+                  <div class="grid-item"><img src="img/img11.jpg" alt=""></div>
+                  <div class="grid-item"><img src="img/img12.jpg" alt=""></div>
+                  <div class="grid-item"><img src="img/img13.jpg" alt=""></div>
+                  <div class="grid-item"><img src="img/img14.jpg" alt=""></div>
+                  <div class="grid-item"><img src="img/img15.jpg" alt=""></div>
+                  <div class="grid-item"><img src="img/img16.jpg" alt=""></div>
+                  <div class="grid-item"><img src="img/img17.jpg" alt=""></div>
+                  <div class="grid-item"><img src="img/img18.jpg" alt=""></div>
+                  <div class="grid-item"><img src="img/img19.jpg" alt=""></div>
+                  <div class="grid-item"><img src="img/img20.jpg" alt=""></div>
+                  <div class="grid-item"><img src="img/img21.jpg" alt=""></div>
+                  <div class="grid-item"><img src="img/img22.jpg" alt=""></div>
+                  <div class="grid-item"><img src="img/img23.jpg" alt=""></div>
+                  <div class="grid-item"><img src="img/img24.jpg" alt=""></div>
+                  <div class="grid-item imgs"><img src="img/img25.jpg" alt=""></div>
+                  <div class="grid-item imgs"><img src="img/img26.jpg" alt=""></div>
+                  <div class="grid-item imgs"><img src="img/img27.jpg" alt=""></div>
+                  <div class="grid-item imgs"><img src="img/img28.jpg" alt=""></div>
+                  <div class="grid-item imgs"><img src="img/img29.jpg" alt=""></div>
+                  <div class="grid-item imgs"><img src="img/img30.jpg" alt=""></div>
+                  <div class="grid-item imgs"><img src="img/img31.jpg" alt=""></div>
+                  <div class="grid-item imgs"><img src="img/img32.jpg" alt=""></div>
+                  <div class="grid-item imgs"><img src="img/img33.jpg" alt=""></div>
+                  <div class="grid-item imgs"><img src="img/img34.jpg" alt=""></div>
+                  <div class="grid-item imgs"><img src="img/img35.jpg" alt=""></div>
+                  <div class="grid-item imgs"><img src="img/img36.jpg" alt=""></div>
+                  <div class="grid-item imgs"><img src="img/img37.jpg" alt=""></div>
+
+                </div>
+              </div>
+
 
             <div class="aboutParagraph">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus at ea aperiam. Reiciendis illo sunt illum voluptates sit harum quod atque quam placeat, quas nostrum odio temporibus eaque. Autem, rerum!
@@ -247,5 +337,16 @@ This part is straight out of Bootstrap docs. Just a carousel inside a modal.
 
               </div>
  
+              <!-- colcade -->
+        <script src="https://unpkg.com/colcade@0/colcade.js"></script>
+       
+        <script>
+              // element as first argument
+              var grid = document.querySelector('.grid');
+              var colc = new Colcade( grid, {
+              columns: '.grid-col',
+              items: '.grid-item'
+              });
+        </script>
 </body>
 </html>

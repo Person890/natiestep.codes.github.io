@@ -1,11 +1,10 @@
+import Masonry from 'masonry-layout';
+
+
 $(document).ready(function() {
     jQuery.fn.carousel.Constructor.TRANSITION_DURATION = 5000  // 2 seconds
   });
 
-
-
- 
-  
   (function($) {          
       $(document).ready(function(){                    
           $(window).scroll(function(){                          
@@ -25,3 +24,6 @@ $(document).ready(function() {
       document.getElementById('exampleModal').classList.add("custom");
     
   }
+
+
+
