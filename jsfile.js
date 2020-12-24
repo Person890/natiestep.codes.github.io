@@ -1,4 +1,4 @@
-import Masonry from 'masonry-layout';
+ import Masonry from 'masonry-layout';
 
 
 $(document).ready(function() {
@@ -24,6 +24,4 @@ $(document).ready(function() {
       document.getElementById('exampleModal').classList.add("custom");
     
   }
-
-
 
