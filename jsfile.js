@@ -9,9 +9,9 @@ $(document).ready(function() {
       $(document).ready(function(){                    
           $(window).scroll(function(){                          
               if ($(this).scrollTop() > 200) {
-                  $('#menu').fadeIn(500);
+                  $('#menu').fadeIn(1000);
               } else {
-                  $('#menu').fadeOut(500);
+                  $('#menu').fadeOut(1000);
               }
           });
       });
