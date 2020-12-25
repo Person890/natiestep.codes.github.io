@@ -104,8 +104,8 @@
     display: block;
 }
 
+
 .aboutParagraph{
-    margin-top: 2em;;
     text-indent: 4em;
     margin-bottom: 4em;
 }
@@ -416,8 +416,9 @@ body{
 }
 
 
-
-
+h1 {
+  padding-bottom: 2%;
+}
 
 
 
@@ -485,6 +486,15 @@ input[type=text], select, textarea {
   margin-bottom: 16px;
   resize: vertical;
 }
+input[type=email], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
 
 input[type=submit] {
   background-color: #4CAF50;
@@ -531,4 +541,22 @@ input[type=submit]:hover {
 
 .column3{
   margin: 30% 0 0 0 ;
+}
+
+
+.contactinfo{
+ position: relative; 
+ margin: auto;
+ display: block;
+ text-align: center;
+
+}
+
+.special {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10%;
+  text-align: center;
+  padding-top: 5%;
 }
