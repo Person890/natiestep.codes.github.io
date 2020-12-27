@@ -24,6 +24,10 @@
         <!-- stylesheet -->
         <link rel="stylesheet" href="css/portfolio.css">
 
+
+        <!-- transitions -->
+        <link rel="stylesheet" href="aos.css" type="text/css">
+        
         <!-- icon library -->
         <script src="https://kit.fontawesome.com/a0e23e675f.js" crossorigin="anonymous"></script>
 
@@ -45,6 +49,8 @@
     <div>
 
     <body>
+
+      
         <!-- navbar -->
         <nav id = "menu" class="navbar navbar-expand-md navbar-light" >
           <button class="navbar-toggler float-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -119,29 +125,44 @@
             </p>
           </div>
 
-          <div id="about" class="bio">
-            <h1 class="display-4">About</h1>
-            
-              <div class="aboutParagraph">
-                I am a student. For the majority of the day I sit in front of my computer researching, 
-                exploring, experimenting, sketching and coding. Every day I try my best to combine the aesthetics of art with the beautiful logic of algorithms in my projects. 
+          <div id="about" class="bio" >
+            <h1 class="display-4" >About</h1>
+            <div class="row">
+              <div class="col-sm myPic" data-aos="fade-up-right">
+                    <img src="img/me_pic.jpeg">
+              </div>
+              <div class="col-sm">
+              <div class="aboutParagraph" style="margin-bottom: 1em;">
+                I am a student. For the majority of the day I sit in front of my computer researching, exploring, experimenting, sketching and coding. Every day I try my best to combine the aesthetics of art with the beautiful logic of algorithms in my projects. 
 
-                Originally, my career was centered in a medical field. However, it didn't take long for me to realize that the look of blood and needles terrify me. Thankfully, I had the opportunity to travel to the US and enjoy a whole year studying and working in the Bay Area. The change of environment was not only refreshing, but it was a crucial point in my life in which I realized what my passion is. 
-
+                Studying in a medical field in Europe, I had zero computer related experience. Thankfully, I had the opportunity to travel to the US and enjoy a whole year studying and working in the Bay Area. The change of environment was not only refreshing, but it was a crucial point in my life in which I realized what my passion is. 
+                </div>
+                <div class="aboutParagraph" style="margin-bottom: 1em;">
                 As of summer 2017, I was enrolled in my first programming class - Introduction to Java Programming. Needless to say, I fell off-track after couple of lectures and shortly started to feel desperately lost. It would be impossible for me to continue in this new path without help and support of people around me. 
-
-                <!-- Fast forward to August 2020, I have successfully  -->
+                
+              </div>
+              <div class="aboutParagraph" style="margin-top: 0px;">
+                Fast forward to 2020, I am beyond grateful to be a full time honor student in San Jose State University pursuing a degree in Software Engineering. Progressively, I have been more and more interested and involved in front-end development, UI design and user experience and I am currently actively seeking a workplace where I could apply my knowledge of software engineering, UX and UI and gain hands-on experience. Feel free to conect with me on any of the social platforms below, or just send me a message!
+              </div>
 
               </div>
+            </div>
           </div>
 
           <div id="artwork" class="bio">
             <h1 class="display-4">Artwork</h1>
-            <div class="aboutParagraph">
-              You can find a glimpse of my creative work below. If you like my art, you can explore 
-              more of it on Instagram! 
-  
-            </div>
+            <div class="row mountains">
+              <div class="col-sm">
+                <div class="aboutParagraph">
+                  <p>You can find a glimpse of my creative work below. If you like my art, you can explore 
+                  more of it on Instagram! 
+                </p>
+                </div>
+              </div>
+              <div class="col-sm" data-aos="fade-up-left">
+                <img src="img/mountains.png">
+              </div>
+          </div>
           </div>
             
 
@@ -177,19 +198,19 @@
             </div> -->
 
             <div id="contact">
-              <h1 class="display-4">Find me on socials </h1>
+              <h1 class="display-4" style="padding-top:2em;">Find me on socials </h1>
   
 
             <div class="row custom contactinfo bio">
               <!-- <div class="icons col-6 col-sm-12 col-lg-6"> -->
-                <a href="https://www.linkedin.com/in/nataliestepankevycova/">
-                  <i class="fab fa-linkedin-in special"></i>
+                <a href="https://www.linkedin.com/in/nataliestepankevycova/" >
+                  <i data-aos="fade-right" class="fab fa-linkedin-in special"></i>
                 </a>
                 <a href="https://www.instagram.com/natie_step/">
                   <i class="fab fa-instagram-square special"></i>
                 </a>
                 <a href="https://github.com/Person890">
-                  <i class="fab fa-github-square special"></i>
+                  <i data-aos="fade-left" class="fab fa-github-square special"></i>
                 </a>
               <!-- </div> -->
             </div>
@@ -201,7 +222,7 @@
 <!-- contact form -->
           <div class="container3">
             <div class="display-4" style="text-align:center">
-              <h1>Let's connect</h1>
+              <h1 style="padding-top:1em;">Let's connect</h1>
               <h4>Get in touch for opportunities or just to say hi! 👋 </h4>
                 
             </div>
@@ -212,7 +233,7 @@
               <div class="column2">
                 <form action="https://formspree.io/f/xrgooaoa" method="POST">
                   <fieldset id="fs-frm-inputs">
-                    <label for="fname">Full Name</label>
+                    <label for="fname" >Full Name</label>
                     <input type="text" name="name" id="full-name" placeholder="Michael Bubbly" required="">
                     <label for="email-address">Email Address</label>
                     <input type="email" name="_replyto" id="email-address" placeholder="email@domain.tld" required="">
@@ -220,7 +241,7 @@
                     <textarea rows="5" name="message" id="message" placeholder="What's the fizz?" required=""></textarea>
                     <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
                   </fieldset>
-                  <input type="submit" value="Submit">
+                  <input type="submit" value="Submit" style="border-radius: 10px;">
                 </form>
               </div>
             </div>
@@ -228,10 +249,13 @@
 
 
 
+          <!-- transitions -->
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+          <script src="/css3-animate-it.js"></script>
  
               <!-- colcade -->
         <script src="https://unpkg.com/colcade@0/colcade.js"></script>
-       
+        
         <script>
               // element as first argument
               var grid = document.querySelector('.grid');
@@ -240,5 +264,17 @@
               items: '.grid-item'
               });
         </script>
+        <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+        <script src="aos.js"></script>
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script type="text/javascript">
+          AOS.init({
+            duration: 900,
+          });
+            
+        </script>
+        
+        
+               
 </body>
 </html>
